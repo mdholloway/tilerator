@@ -79,13 +79,13 @@ services:
       - tilelive-tmsource
       - tilelive-tmstyle
       - "@kartotherian/autogen"
+      - "@kartotherian/babel"
       - "@kartotherian/cassandra"
       - "@kartotherian/layermixer"
       - "@kartotherian/overzoom"
       - "@kartotherian/postgres"
       - "@kartotherian/substantial"
-      - "@kartotherian/tilelive-vector"
-      - "@kartotherian/babel"
+      - "@mapbox/tilelive-vector"
 
       # If true, do not enable admin interface
       daemonOnly: true
